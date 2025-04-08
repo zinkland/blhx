@@ -29,8 +29,8 @@ if [ ! -f "com.bilibili.AzurLane.apk" ]; then
 
     # eg: wget "your download link" -O "your packge name.apk" -q
     #if you want to patch .xapk, change the suffix here to wget "your download link" -O "your packge name.xapk" -q
-    #wget -U 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36' -O com.bilibili.AzurLane.apk  https://pkgdl.biligame.net/games/blhx_8.2.1_0820_1_20240830_041443_51682.apk 
-    curl -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" -O com.bilibili.AzurLane.apk  https://pkgdl.biligame.net/games/blhx_8.2.1_0820_1_20240830_041443_51682.apk
+    wget -O com.bilibili.AzurLane.apk  https://pkgdl.biligame.net/games/blhx_8.2.1_0820_1_20240830_041443_51682.apk 
+    #curl -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" -O com.bilibili.AzurLane.apk  https://pkgdl.biligame.net/games/blhx_8.2.1_0820_1_20240830_041443_51682.apk
     
     
     
