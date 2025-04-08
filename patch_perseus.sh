@@ -29,7 +29,7 @@ if [ ! -f "com.bilibili.AzurLane.apk" ]; then
 
     # eg: wget "your download link" -O "your packge name.apk" -q
     #if you want to patch .xapk, change the suffix here to wget "your download link" -O "your packge name.xapk" -q
-    wget "https://gc.s.migames.com/gdownload/api/c/download?c=app&v=download&package=com.bilibili.blhx.mi&channel=meng_1439_352_android" -O com.bilibili.AzurLane.apk 
+    wget "https://gc.s.migames.com/gdownload/api/c/download?c=app&v=download&package=com.bilibili.blhx.mi&channel=meng_1439_352_android" -O com.bilibili.AzurLane.apk -q
     
     
     
