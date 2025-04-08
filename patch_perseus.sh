@@ -32,7 +32,6 @@ if [ ! -f "com.bilibili.AzurLane.apk" ]; then
     wget -O com.bilibili.AzurLane.apk https://gc.s.migames.com/gdownload/api/c/download?c=app&v=download&package=com.bilibili.blhx.mi&channel=meng_1439_352_android
     
     
-    
     echo "apk downloaded !"
     
     # if you can only download .xapk file uncomment 2 lines below. (delete the '#')
